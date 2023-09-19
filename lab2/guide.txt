@@ -1,0 +1,21 @@
+less -N ../../os-labs/labs-2023/lab2/labdata2.log
+/ZinchenkoSK
+n (next) / N (prev)
+cat -n ../../os-labs/labs-2023/lab2/labdata2.log | head -n 1785 | tail -n 4 > task.txt 
+ls -d */ | cut -f1 -d'/' (вывод списка директорий без / в конце)
+$ cat - Commander/info.txt - Bradford/info.txt - Spokesman/info.txt - Shen/info.txt - Tygan/info.txt >> info.txt
+
+Welcome back,
+ctrl+d
+========================================================
+Его класс - мой любимый в игре
+ctrl+d
+========================================================
+Пугающий мужчина...
+ctrl+d
+========================================================
+Такому в МЭИ не научат...
+ctrl+d
+========================================================
+К такому врачу я бы точно не пошёл...
+ctrl+d
