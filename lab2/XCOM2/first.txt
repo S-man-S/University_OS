@@ -1,0 +1,14 @@
+==> Bradford/info.txt <==
+John "Central" Bradford
+
+==> Commander/info.txt <==
+The Commander
+
+==> Shen/info.txt <==
+Chief Lily Shen
+
+==> Spokesman/info.txt <==
+The Spokesman
+
+==> Tygan/info.txt <==
+Richard Tygan
