@@ -1,0 +1,1 @@
+cat TEST-* | grep -e "-20" | grep -e "[3-5]$" | sed "s/-20;/,/g" | sed "s/;2023;.;/,/g" | sort > Tests.csv
