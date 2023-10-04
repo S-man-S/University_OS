@@ -1,1 +1,8 @@
-cat TEST-* | grep -e "-20" | grep -e "[3-5]$" | sed "s/-20;/,/g" | sed "s/;2023;.;/,/g" | sort > Tests.csv
+Пункт второй:
+cat TEST-* | grep -e "-20" | grep -e "[3-5]$" | sed "s/-20;/,/g" | sed "s/;2023;.*;/,/g" | sort > Tests.csv
+cat TEST-* | grep -ce ";25;5" >> Tests.csv
+
+Пункт третий:
+$ sed -i "/.*Zinchenko.*2$/d" TEST-*
+sed -i '/Zinchenko/s/0/1/g' A-06-20-attendance
+ESC + :wq (реально чуть не остался в vim'е на вечность...)
